@@ -27,3 +27,5 @@ The goal is to replace ArUco markers detected in a video with 3D objects. Please
 - **Initialization**: Libraries `cv2` (OpenCV) and `numpy` are imported to handle image processing and numerical operations. A known physical size of the ArUco marker is defined (`markerlength`), which is crucial for scale consistency in AR. The video file is loaded, and video properties (FPS, width, height) are obtained to initialize the output video parameters.
   
 - **Camera Calibration Parameters**: The camera matrix (`cameramatrix`) and distortion coefficients (`distcoeffs`) are defined. These are critical for the accurate placement of 3D objects in the scene. The distortion coefficients are assumed to be zero (no lens distortion). Video properties like frame rate (fps), width, and height are obtained using `cap.get`. A `VideoWriter` object is initialized to write the processed frames into an output video file (`outputvideo.mp4`) using the MP4V codec.
+  
+https://github.com/pengyumu/AR-ArUco-Marker-Replacement-in-Video-Streams/assets/174324735/b5f48813-1728-449e-bcc7-84c7315ed459
