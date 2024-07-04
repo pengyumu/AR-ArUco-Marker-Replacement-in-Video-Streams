@@ -18,6 +18,8 @@ The goal is to replace ArUco markers detected in a video with predefined images 
   
 - **Release Resources**: After processing all frames, resources like `VideoCapture` and `VideoWriter` objects are released using `cap.release()` and `out.release()`.
 
+  https://github.com/pengyumu/AR-ArUco-Marker-Replacement-in-Video-Streams/assets/174324735/3581c683-bb5b-40f7-bb28-be55a05852b5
+
 ## Place Virtual Objects
 
 The goal is to replace ArUco markers detected in a video with 3D objects. Please see below for the steps that were taken during the implementation.
