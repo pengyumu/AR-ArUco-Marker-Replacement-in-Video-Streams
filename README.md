@@ -17,8 +17,8 @@ The goal is to replace ArUco markers detected in a video with predefined images 
 - **Visualization and Display**: After processing each frame, it is displayed using Matplotlib’s `imshow` function to visualize the replaced markers. A short pause (`cv2.waitKey`) is added to display the frames correctly within the notebook.
   
 - **Release Resources**: After processing all frames, resources like `VideoCapture` and `VideoWriter` objects are released using `cap.release()` and `out.release()`.
-
-  https://github.com/pengyumu/AR-ArUco-Marker-Replacement-in-Video-Streams/assets/174324735/3581c683-bb5b-40f7-bb28-be55a05852b5
+  
+https://github.com/pengyumu/AR-ArUco-Marker-Replacement-in-Video-Streams/assets/174324735/3581c683-bb5b-40f7-bb28-be55a05852b5
 
 ## Place Virtual Objects
 
